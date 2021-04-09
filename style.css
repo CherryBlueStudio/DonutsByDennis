@@ -1,0 +1,145 @@
+:root {
+  --pink: #fb2078ff;
+  --blue: #19a2f0ff;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/img/DonutBG.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+/*Navbar*/
+
+.navbar {
+  background-color: var(--blue);
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em;
+  color: black;
+  font-weight: 600;
+  font-size: 1.7em;
+  text-align: right;
+  padding: 0;
+}
+
+.nav-link:hover {
+  color: var(--pink);
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/*Main pic*/
+.main-pic {
+  margin: 5vh;
+}
+
+/*Spacer to see background*/
+
+.spacer {
+  height: 20vh;
+  width: 100%;
+}
+
+/*Banner text*/
+
+.banner {
+  background-color: white;
+  margin-top: 5vh;
+  text-align: center;
+  padding: 25px;
+}
+
+.big-title {
+  font-size: 2.5em;
+  font-weight: 900;
+  color: var(--blue);
+}
+
+.big-text {
+  font-size: 1.7em;
+  font-weight: 800;
+}
+
+/*Donut gallery*/
+
+.gallery {
+  background-color: var(--pink);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pic-box {
+  text-align: center;
+  max-width: 300px;
+}
+
+.pic-title {
+  font-size: 1.2em;
+  font-weight: 700;
+  background-color: antiquewhite;
+  margin-bottom: 0;
+}
+
+.pic-text {
+  font-size: 1.1em;
+  background-color: white;
+}
+
+.pic:hover {
+  transform: scale(1.5);
+  transition: 0.7s;
+}
+
+.map {
+  background-color: var(--pink);
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+/*Footer*/
+
+footer {
+  background-color: var(--blue);
+  position: absolute;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+footer a:link {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: white;
+}
+
+footer a:hover {
+  color: var(--pink);
+}
+
+footer a:active {
+  color: white;
+}
