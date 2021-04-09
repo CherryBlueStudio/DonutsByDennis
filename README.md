@@ -12,4 +12,4 @@ The website also has a donut gallery featuring the best selling donuts along wit
 
 The site is fully responsive with a flex box picture gallery and a hamburger style pop-out nav-bar.
 
- <a href="https://cherrybluestudio.github.io/DonutsByDennis/" target="_blank">Have a look!</a>
+ <a href="https://cherrybluestudio.github.io/DonutsByDennis/">Have a look!</a>
