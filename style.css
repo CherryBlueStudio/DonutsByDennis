@@ -15,7 +15,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/img/DonutBG.jpg");
+  background-image: url("img/DonutBG.jpg");
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
